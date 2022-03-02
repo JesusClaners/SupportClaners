@@ -3,8 +3,9 @@
     "author": {
       "name": "Claners",
       "email": "soporte@claners.com",
+      "url": "https://www.claners.com/"
     },
-    "defaultLocale": "es",
+    "defaultLocale": "en",
     "private": false,
     "location": {
       "support": {
@@ -23,6 +24,7 @@
         }
       }
     },
+    "domainWhitelist": ["claners.com/"],
     "parameters": [
       {
         "name": "token",
