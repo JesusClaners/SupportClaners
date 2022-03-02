@@ -8,6 +8,7 @@
         "sizes": "512x512"
       }
     ],
+    "author": "Claners",
     "start_url": "https://soporteclaners.zendesk.com/hc/es-419",
     "background_color": "#3367D6",
     "display": "standalone",
