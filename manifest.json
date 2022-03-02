@@ -2,8 +2,7 @@
     "name": "Claners",
     "author": {
       "name": "Claners",
-      "email": "soporte@claners.com",
-      "url": "https://www.claners.com/"
+      "email": "soporte@claners.com"
     },
     "defaultLocale": "en",
     "private": false,
