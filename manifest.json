@@ -1,0 +1,17 @@
+{
+    "short_name": "Claners",
+    "name": "Soporte Claners",
+    "icons": [
+      {
+        "src": "/images/icons-vector.svg",
+        "type": "image/svg+xml",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "https://soporteclaners.zendesk.com/hc/es-419",
+    "background_color": "#3367D6",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#3367D6"
+   
+  }
