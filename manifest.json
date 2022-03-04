@@ -1,7 +1,7 @@
 {
     "name": "Soporte Claners",
     "author": "Soporte Claners",
-    "version": "1.0",
+    "version": "1.0.1",
     "api_version": 2,
     "settings":[{
       "label": "Colores",
