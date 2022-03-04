@@ -8,9 +8,9 @@
       "label": "Colores",
       "variables": [
         {
-          "identifier": "Color Claners",
+          "identifier": "Color_Claners",
           "type": "color",
-          "description": "Color de la marca Claners",
+          "description": "Color_de_la_marca_Claners",
           "label": "Claners",
           "value": "#141828"
         }]
