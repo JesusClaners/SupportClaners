@@ -1,31 +1,17 @@
 {
     "name": "Soporte Claners",
-    "author": {
-      "name": "Soporte Claners",
-      "email": "soporte@claners.com",
-      "url": "https://www.claners.com/"
+    "author":{
+        "name": "Claners",
+        "email": "soporte@claners.com",
+        "url": "http://www.claners.com"
     },
-    "defaultLocale": "en",
-    "private": false,
+    "defaultLocale": "es",
     "location": {
-      "support": {
-        "background": "assets/iframe.html",
-        "ticket_sidebar": {
-          "autoLoad": false,
-          "flexible": true
-        },
-        "top_bar": {
-          "autoHide": true,
-          "url": "assets/top_bar.html",
-          "size": {
-            "width": "450px",
-            "height": "500px"
-          }
+        "support": {
+          "ticket_sidebar": "assets/iframe.html"
         }
-      }
-    },
-    "domainWhitelist": ["https://www.claners.com/"],
-    "parameters": [
+      },
+      "parameters": [
         {
           "name": "subdomain",
           "type": "text",
@@ -38,4 +24,5 @@
       ],
     "version": "1.0",
     "frameworkVersion": "2.0"
-  }
+
+}
