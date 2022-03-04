@@ -1,28 +1,18 @@
 {
+    "short_name": "Claners",
     "name": "Soporte Claners",
-    "author":{
-        "name": "Claners",
-        "email": "soporte@claners.com",
-        "url": "http://www.claners.com"
-    },
-    "defaultLocale": "es",
-    "location": {
-        "support": {
-          "ticket_sidebar": "assets/iframe.html"
-        }
-      },
-      "parameters": [
-        {
-          "name": "subdomain",
-          "type": "text",
-          "required": true
-        },
-        {
-          "name": "useSSL",
-          "type": "checkbox"
-        }
-      ],
-    "version": "1.0",
-    "frameworkVersion": "2.0"
-
-}
+    "icons": [
+      {
+        "src": "/images/icons-vector.svg",
+        "type": "image/svg+xml",
+        "sizes": "512x512"
+      }
+    ],
+    "author": "Claners",
+    "start_url": "https://soporteclaners.zendesk.com/hc/es-419",
+    "background_color": "#3367D6",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#3367D6"
+   
+  }
