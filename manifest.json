@@ -4,5 +4,15 @@
     "defaultLocale": "es",
     "version": "1.0",
     "api_version": 2,
-    "settings":[{}]
+    "settings":[{
+      "label": "Colores",
+      "variables": [
+        {
+          "identifier": "Color Claners",
+          "type": "color",
+          "description": "Color de la marca Claners",
+          "label": "Claners",
+          "value": "#141828"
+        }]
+      }]
   }
