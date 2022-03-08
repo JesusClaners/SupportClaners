@@ -21,36 +21,40 @@ body{
     justify-content: space-between;
   }
 
-
-  .logo{
-      display: flex;
-      width: 100%;
-  }
-
-  .logo img {
-    max-height: 37px;
-    vertical-align: middle;
-  }
-  
-  .logo span {
-    margin: 0 10px;
-    color: $brand_color;
-  }
-  
-  .logo a {
-    display: inline-block;
-  }
-  
-  .logo a:hover, .logo a:focus, .logo a:active {
+  a {
+    color: $link_color;
     text-decoration: none;
   }
-  
-  .user-nav {
+
+.logo a{
     display: inline-block;
-    position: absolute;
-    white-space: nowrap;
+}
+
+.logo img{
+    max-height: 40px;
+    vertical-align: middle;
+}
+
+.logo a:hover, .logo a:focus, .logo a:active {
+    text-decoration: none;
   }
 
+ 
+  @media (min-width: 768px) and (max-width: 768px) {
+    .nav-wrapper-desktop {
+      display: none;
+    }
+    .nav-wrapper-desktop a {
+        display: inline-block;
+      }
+  }
+  
+  @media (min-width: 1024px) {
+    .nav-wrapper-desktop {
+      display: inline-block;
+    }
+  }
+  
   .nav-wrapper-desktop a {
     border: 0;
     color: $link_color;
@@ -59,7 +63,7 @@ body{
     padding: 0 20px 0 0;
     width: auto;
   }
-
+  
   [dir="rtl"] .nav-wrapper-desktop a {
     padding: 0 0 0 20px;
   }
@@ -70,6 +74,12 @@ body{
     text-decoration: underline;
   }
 
+  @media (min-width: 1024px) {
+    .nav-wrapper-mobile {
+      display: none;
+    }
+  }
+  
   .nav-wrapper-mobile .menu-button-mobile {
     background: none;
     border: 0;
@@ -178,66 +188,4 @@ body{
     margin-right: 0;
     margin-left: 8px;
   }
-
-  .user-info {
-    display: inline-block;
-  }
   
-  .user-info .dropdown-toggle::after {
-    display: none;
-  }
-  .user-info > button {
-    border: 0;
-    color: $link_color;
-    min-width: 0;
-    padding: 0;
-    white-space: nowrap;
-  }
-  
-  .user-info > button:hover, .user-info > button:focus {
-    color: $link_color;
-    background-color: transparent;
-  }
-  
-  .user-info > button::after {
-    color: $link_color;
-    padding-right: 15px;
-  }
-  
-  [dir="rtl"] .user-info > button::after {
-    padding-left: 15px;
-    padding-right: 0;
-  }
-  
-  .user-avatar {
-    height: 25px;
-    width: 25px;
-    border-radius: 50%;
-    display: inline-block;
-    vertical-align: middle;
-  }
-  
-  .avatar {
-    display: inline-block;
-    position: relative;
-  }
-  
-  .avatar img {
-    height: 40px;
-    width: 40px;
-  }
-  
-  .avatar .icon-agent {
-    color: $brand_color;
-    border: 2px solid #fff;
-    border-radius: 50%;
-    bottom: -4px;
-    background-color: $brand_text_color;
-    font-size: 17px;
-    height: 17px;
-    line-height: 17px;
-    position: absolute;
-    right: -2px;
-    text-align: center;
-    width: 17px;
-  }
